@@ -1,0 +1,155 @@
+.a {
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    font-size: 15px;
+}
+
+.profilepic {
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    top: 50px;
+    border-radius: 70%
+
+}
+
+h3.name {
+    position:absolute;
+    top: 60px;
+    left: 130px;
+    font-size: 18px;
+    text-align: center;
+    padding: 0 32px 0 0;
+}
+
+.btn {
+    background-color:#efefef;
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    display: flex;
+    font-size: 14px;
+    top: 110px;
+    font-weight: bold;
+}
+
+#following {
+    position: absolute;
+    left: 130px;
+}
+
+#message {
+    position: absolute;
+    left: 220px;
+
+}
+#addbtn{
+    position: absolute;
+    left: 320px;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    top: 110px;
+
+}
+.bar {
+    position: absolute;
+    display: flex;
+    height: 55px;
+    width: 380px;
+    top: 350px;
+    background-color: white;
+    z-index: 3;
+    margin: 0% auto;
+    border: 1px solid rgb(153, 152, 152);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.post {
+    position: absolute;
+    left: 50px;
+}
+
+.follower {
+    position: relative;
+    right: 1px;
+}
+.follow {
+    position: absolute;
+    right: 20px;
+}
+
+.icon_container{  
+    width: 375px;
+    height: 45px;
+    position: absolute;
+    top: 70px;
+    border-bottom: 0.5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.categoryIcon {
+    font-size: 20px;
+    color: black;
+}
+
+.image-container img {
+    display: flex;
+    flex-direction: column;
+    max-width: 120px;
+    max-height: 120px;
+    margin-bottom: 30px;
+}
+
+#pic1{
+    position: absolute;
+    left: 5px;
+    top: 120px;
+}
+
+#pic2{
+    position: absolute;
+    left: 130px;
+    top: 120px;
+}
+
+#pic3{
+    position: absolute;
+    left: 255px;
+    top: 120px;
+}
+
+.foot{
+    width: 375px;
+    height: 49px;
+    border-top: 0.5px solid rgb(219, 219, 219);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 619px;
+    justify-content: space-around;
+    z-index: 10;
+    background-color: white;
+    color:black;
+
+}
+
+.foot div {   
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+}
+
+.foot div img {
+    width: 24px;
+    height: 24px;
+    border-radius: 100px;
+}
