@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'info.css' %}"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HYOJIN'S PAGE</title>
+</head>
+<body>
+    <header>
+        <div class="head_container">
+            <div class="pic">Welcome to Hailey's page</div>
+            <div class="link_container">
+                <p><a href="{% url 'info' %}">info</a></p>
+                <p><a href="{% url 'portfolio' %}">project</a></p>
+            </div>
+        </div>
+    </header>
+    <!-- 메인 -->
+    <div class ="main_container">
+        <div class="home">
+            <div class="home_link">
+                <a href="https://github.com/hailey-jung">github</a>
+                <a href="https://www.instagram.com/haileyj01_">instagram</a>
+            </div>
+            <div class="home_content">
+                <img src="{% static 'me.gif' %}" class="me">
+                <div class="about_me">
+                    <p>My name is Hyojin Hailey Jung</p>
+                    <p>I aspire to become someone better tomorrow than who I am today</p>
+                    <p>I love traveling and learning web programming</p>
+                    <p>I want to share happiness with everyone</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
